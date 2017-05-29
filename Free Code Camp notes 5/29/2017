@@ -1,0 +1,16 @@
+---
+published: false
+---
+## HTML/CSS notes
+
+When you're nesting tags inside each other in HTML, you nest them outside the brackets: ie, <a> NEST HERE </a> 
+
+Bullet-point style lists are "unordered lists" <ul> </ul>
+List items <li> </li> must be nested inside of unordered lists.
+Numbered lists, on the other hand, are "ordered lists" <ol> </ol>
+
+To get user input, you create a text field with <input type = "text">
+THESE ARE SELF-CLOSING
+Placeholder text is what appears in the input box before the user types anything. You add that by changing the input tag to <input type = "text" placeholder = "this is placeholder text">
+
+Radio buttons are a button for questions where you want the user to give you one and only one answer.
