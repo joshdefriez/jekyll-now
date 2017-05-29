@@ -1,0 +1,16 @@
+## Notes from the Dub Step problem
+
+enumerate(): creates a list of tuples from a list where the left item in each paranthesis is the list index, and the right item is the list item.
+	example: if you use enumerate() on ["this", "list"], it would create [(0, "this"), (1, "list")
+    
+Negative numbers index backwards. If you need to remove the first and last characters in a string, you can print string[1:-1], meaning only the characters within the range of index points 1 (second character on the left) and -1 (second character on the right).
+
+If you need to get rid of multiple spaces in a string and replace them with one space, use string.split() followed by " ".join(string). The split function, for some reason unknown to me, doesn't include spaces when it splits the string apart into a list (it splits them __at__ the spaces, so that's likely why). Whatever goes between the "" before .join is placed between each list item when the list is joined back together into a string.
+
+string.lower() copies the string but forces all non-lowercase characters into lowercase 
+
+Creating empty sets is extremely useful if you are searching for items within a string so that you can instruct the program to insert the found items into the empty list as objects.
+
+range(a, b) creates a list of the numbers between a and b
+
+[::-1] reverses a list; [::1] just gives the list in normal order; if you increase the value of that integer n, it decreases the size of the list, leaving every nth integer.
